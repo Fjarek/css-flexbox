@@ -1,0 +1,35 @@
+@media all and (max-width: 992px){
+    #main{
+        display:flex;
+        flex-flow: row wrap;
+    }
+    .right{
+        order: 2;
+        flex: 1 6 30%;
+    }
+    .left{
+        order: 3;
+        
+    }
+}
+
+@media all and (max-width: 768px){
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    #main > *{
+      flex: 1 ;
+    }
+    .lorem{
+      
+        order: 1;
+    }
+    .left{
+        order: 2;
+        }
+    .right{
+        order: 3;
+    }
+}
+
